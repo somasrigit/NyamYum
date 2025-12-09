@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* index page */
+.container-fluid {
+  background-image: url("images/bananaleaf.jpg");
+  width: 100vw;
+  border-radius: 10px;
+}
+
+.carousel {
+  padding-top: 10px;
+}
+
+.res-name {
+  font-size: 3rem;
+}
+
+.info {
+  background-color: bisque;
+  border-radius: 20px;
+  padding-block: 10px;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.southkol-info {
+  background-color: bisque;
+  border-radius: 20px;
+  padding-block: 10px;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* north and south kolkata */
+.recommendation ul {
+  list-style-type: none;
+}
+
+.carousel-caption {
+  color:rgb(255, 217, 0);
+  background-color: rgba(0, 0, 0, 0.545);
+  display: inline;
+  padding-inline: 25px;
+}
+
+.left-info {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right-info {
+  width: 20vw;
+}
+
+.span-class {
+  font-size: 3rem;
+}
+
+/* recommendations */
+.main-container {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-block: 25px;
+}
+
+.main-container h2 {
+  font-size: 2.5rem;
+  font-family: cursive;
+  font-weight: bolder;
+  color: rgb(255, 166, 0);
+}
+
+.section {
+  width: 75vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(238, 196, 238);
+  padding-block: 50px;
+  border-radius: 15px;
+  margin-block: 10px;
+}
+
+.text-part {
+  width: 35vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+}
+
+.image-part {
+  width: 20vw;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.aboutus-head h1{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.aboutus {
+  width: 75vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+}
+
+.aboutus-section {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+  background-color: darksalmon;
+  border-radius: 15px;
+  margin: 0 auto 10px;
+}
+
+.about {
+  width: 40vw;
+  padding-inline: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.role {
+  font-weight: bolder;
+}
+
+.about ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about #skills-icons {
+  display: inline;
+}
+
+.about p {
+  font-size: 1.5rem;
+}
+
+.about .other li {
+  display: inline;
+}
+
+.about .connectwithme {
+  display: inline;
+  padding-inline: 5px;
+}
+
+.pic {
+  margin-inline: 10px;
+}

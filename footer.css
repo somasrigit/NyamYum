@@ -1,0 +1,94 @@
+.footer {
+    background-color: bisque;
+    width: 100vw;
+    height: fit-content;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+.footer-container {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-block: 3px;
+}
+
+.about-team {
+    width: 15vw;
+}
+
+.about-team ul {
+    list-style-type: none;
+}
+
+.about-team h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.recommendations {
+    width: 15vw;
+}
+
+.recommendations h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.footer-recommendations {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-block: 3px;
+}
+
+.footer-recommendations a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+.footer-recommendations a:visited {
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+
+.footer-recommendations a:hover {
+    color: orangered;
+}
+
+.logo-text a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+.logo-text a:visited {
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+
+.logo-text a:hover {
+    color: orangered;
+}

@@ -1,0 +1,305 @@
+@media (max-width : 1536px){
+    /* recommendation pages */
+    .main-container h2{
+        font-size: 2.2rem;
+    }
+
+    .section {
+        padding-block: 18px;
+        margin-block: 8px;
+    }
+
+    .text-part {
+        font-size: 1rem;
+    }
+
+    .section img {
+        max-width: 100%;
+    }
+
+    /* about us page */
+    .aboutus-head h1{
+        font-size: 2rem;
+    }
+
+    .about .role {
+        font-size: 1.3rem;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about .p-texts {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width : 1366px){
+
+    /* info part */
+    .info {
+        justify-content: center;
+    }
+
+    .left-info {
+        width: 50vw;
+        font-size: 1rem;
+    }
+
+    /* cat part */
+    .cat-container {
+        transform: scale(0.9);
+    }
+
+    /* carousel */
+    .res-name{
+        font-size: 2rem;
+    }
+
+    .carousel-caption p{
+        font-size: 0.9rem;
+    }
+    
+    .carousel-caption h4 {
+        font-size: 1.2rem;
+    }
+
+    .recommendation h3 {
+        font-size: 1.2rem;
+    }
+
+    /* recommendation pages */
+    .main-container h2{
+        font-size: 1.9rem;
+    }
+
+    .section {
+        padding-block: 18px;
+        margin-block: 8px;
+    }
+
+    .text-part {
+        font-size: 1rem;
+    }
+
+    .section img {
+        max-width: 100%;
+    }
+
+    /* about us page */
+    .aboutus-head h1{
+        font-size: 2rem;
+    }
+
+    .about .role {
+        font-size: 1.3rem;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about .p-texts {
+        font-size: 1.2rem;
+    }
+
+    /* footer part */
+    .footer-logo {
+        width: 10vw;
+    }
+
+    .footer_text {
+        font-size: 1.5rem;
+    }
+
+    .about-team h4 {
+        font-size: 1rem;
+    }
+
+    .recommendations h4 {
+        font-size: 1rem;
+    }
+
+    .logo-text {
+        font-size: 0.9rem;
+        gap: 5px;
+        padding-block: 3px;
+    }
+
+    .footer-recommendations {
+        font-size: 0.9rem;
+        gap: 5px;
+        padding-block: 3px;
+    }
+}
+
+@media (max-width : 1100px){
+    /* info part */
+    .left-info {
+        width: 55vw;
+    }
+
+    .southkol-info {
+        height: 200px;
+    }
+
+    /* cat part */
+    .cat-container {
+        right: 50px;
+        transform: scale(0.9);
+    }
+
+    .yum-yum {
+        right: -70px;
+        bottom: 60px;
+        transform: scale(0.9);
+    }
+
+    /* recommendation pages */
+    .main-container h2{
+        font-size: 1.6rem;
+    }
+
+    .main-container{
+        width: 100vw;
+    }
+
+    .section {
+        width: 90vw;
+    }
+
+    .text-part {
+        width: 60vw;
+        font-size: 0.9rem;
+    }
+
+    .section img {
+        max-width: 100%;
+    }
+
+    /* about us page */
+    .aboutus {
+        width: 80vw;
+    }
+
+    .aboutus-section {
+        width: 80vw;
+    }
+
+    .aboutus-head h1{
+        font-size: 1.5rem;
+    }
+
+    .about .role {
+        font-size: 1.1rem;
+    }
+
+    .about h1 {
+        font-size: 1.5rem;
+    }
+
+    .about .p-texts {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    /* footer */
+    .footer-logo {
+        width: 20vw;
+    }
+
+    .about-team {
+        width: 20vw;
+    }
+
+    .about-team h4 {
+        text-align: center;
+    }
+
+    .logo-text {
+        font-weight: bold;
+    }
+
+    .recommendations {
+        width: 25vw;
+    }
+
+    .footer-recommendations {
+        font-weight: bold;
+    }
+}
+
+@media (max-width : 990px) {
+    /* info part */
+    .info {
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    .left-info {
+        width: 60vw;
+    }
+     
+    /* cat part */
+    .cat-container {
+        transform: scale(0.8);
+    }
+
+    /* carousel */
+    .res-name{
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption p{
+        font-size: 0.8rem;
+    }
+    
+    .carousel-caption h4 {
+        font-size: 1rem;
+    }
+
+    .recommendation h3 {
+        font-size: 1rem;
+    }
+
+    .recommendation li {
+        font-size: 0.8rem;
+    }
+
+    /* recommendations pages */
+    .main-container{
+        width: 100vw;
+    }
+
+    .section {
+        width: 90vw;
+    }
+
+    .text-part {
+        width: 60vw;
+    }
+    
+    /* about us */
+    .aboutus {
+        width: 100vw;
+    }
+
+    .aboutus-section {
+        width: 90vw;
+    }
+
+    .about {
+        width: 60vw;
+    }
+    .about h1 {
+        font-size: 1.2rem;
+    }
+
+    .about .role {
+        font-size: 0.9rem;
+    }
+    .about .p-texts {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+}
